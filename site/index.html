@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Internal Links</title>
 </head>
 <body>
-	<h1>Internal Links</h1>
-	<section>
+	<h1 id="top">Links</h1>
+	<section><a href="#section1">section1</a>
+		<h2>Internal links</h2>
 	we can link to a file int the same directory as this HTML file like this:
-	<a href="page.html" title="page link">Link to page 2</a>
-		
+	<a href="page.html" title="page link">Link to page 2</a>	
 	</section>
+	<section>
+		<h2>Fragment identifier</h2>
+		Links that point to certain section in page. There are a couple of different way to identify a section. You can give the section an id with the section name. id="section1", 
+		and in the link you'll write the id with a #before it - #section1. You can also put an a(anchor) tag at the bottom of the page and give it a name attribute and name the section like in the previous example. you create the link like this:
+	</section>
+	<a href="#top">link to top</a>
 </body>
 </html>
