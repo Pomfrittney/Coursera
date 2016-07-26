@@ -6,10 +6,44 @@
 	
 </head>
 <body>
-<header><img src="djur.svg" width="300" height="250" alt="Name Lena written with leaves and flowers"></header>
+<header><img src="djur.svg" width="300" height="250" alt="Robbie, Britney, Bonnie"></header>
+	<a href="page.html" title="link to page 2">Want to go to page 2?</a>
 	<h1>Best Friends</h1>
 	<section class="robbie"><h2>Robbie</h2>Robbie is the sweetest dog on this planet. He is the only one out of his siblings born without a spot on his side. But he doesn't mind that. As long as he gets lots of food, lots of walks, and lots of tummy rubs.</section>
 	<section class="britney"><h2>Britney</h2>Britney is a very kind and caring dog who wants to be close. She knows who she wants around and can be suspicious of strangers.She hates things falling on her, and being left alone for to long.</section>
-	<section class="bonnie"><h2>Bonnie</h2>Bonnie is one of the tiniest cats ever. She likes sitting on things that are the same size as her</section>
+	<section class="bonnie"><h2>Bonnie</h2>Bonnie is one of the tiniest cats ever. She likes sitting on things that are the same size as her.</section>
+	<section class="css"><h2 class="css">Combining CSS Selectors</h2>Element with class selector: p.big meaning every p that has class big.(no space between element and class definition)
+	</section>
+	<section class="css"><h2 class="css">Child Selector</h2> article &gt p , read from right to left. In this case every p element that is a direct child of article is targeted.</section>
+	<section class="css"><h2 class="css">Descendant Selector</h2> article p  read left to right, means every p that is inside article at any level. So for direct child use greater than symbol &gt, and for descendant just use space.</section>
+	<section id="box" class="css"><h2 class="css">Examples</h2>
+		<ul id="inner">
+			<li>everything with class highlight = .highlight</li>
+			<li>all p elements with class highlight = p.highlight</li>
+			<li>all elements with class highlight as well as class mainpoint = .highlight.mainpoint</li>
+			<li>any article element which is a direct child of a section element = section &gt article</li>
+			<li>any h2 element which is a direct child of a section element = section &gt h2</li>
+			<li>all li elements that are inside a section element = section li</li>
+		</ul>	
+	</section>
+	<section class="css"><h2 class="css">Pseudo Class Selectors</h2> Pseudo class selectors target structures that can't be targeted by simple combinations of regular selectors, or target the ability to style based on user interaction with the page. Like if you want an element to change when a user hovers over it. selector:pseudo-class
+		<ul>
+			<li>:link</li>
+			<li>:visited</li>
+			<li>:hover</li>
+			<li>:active</li>
+			<li>:nth_child(...)</li>
+		</ul>
+	</section>
+	<section class="menu">
+		<h2>Sites That I Like</h2>
+		<ul>
+			<li><a href="http://yogawithadriene.com/" title="Yoga" target="_blank">Yoga!</a></li>
+			<li><a href="http://www.benjerry.se/" title="Ice cream" target="_blank">Ice cream!</a></li>
+			<li><a href="http://www.rosendalstradgard.se/" title="Garden" target="_blank">Garden!</a></li>
+		</ul>
+
+
+	</section>
 </body>
 </html>
