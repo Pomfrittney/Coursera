@@ -2,6 +2,7 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	font-family: helvetica; sans-serif;
 	color: cyan;
@@ -63,29 +64,17 @@ section {
 	padding: 10px 10px 10px 10px;
 	border: 5px solid cyan;
 	margin: 10px;
-	width: 600px;
+	width: 40%;
+	float: left;
 }
 
 section.css {
 	padding: 10px 10px 10px 10px;
 	border: 5px solid magenta;
 	margin: 10px;
-	width: 800px;
+	width: 40%;
 
-}
-#box {
-	background-color: yellow;
-	padding: 10px 10px 10px 10px;
-	border: 5px solid magenta;
-	margin: 10px;
-	width: 800px;
 }
 
 
-#inner {
-	background-color: cyan;
-	padding: 40px;
-	border: 5px solid lime;
-	margin: 10px 40px 40px 40px;
-}
 
